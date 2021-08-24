@@ -1,0 +1,127 @@
+body {
+    background-image: url('/assets/images/background.jpg');
+}
+
+#container {
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.form h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form input,
+.form select {
+    height: 30px;
+}
+
+.form select {
+    font-size: 13px;
+}
+
+.form label {
+    font-size: 14px;
+}
+
+
+.item {
+    background-image: url('/assets/images/psd-book-icon.jpg');
+    background-size: 157%;
+    background-position: -52px 19px;
+    padding: 8px;
+    margin: 40px;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.item svg {
+    position: absolute;
+    margin-right: 11px;
+    margin-top: 168px;
+    margin-left: 140px;
+    color: wheat;
+    font-size: 25px;
+}
+
+.no-image {
+    background-image: none;
+    background-color: white;
+    font-size: 115px;
+    text-align: center;
+    align-items: center;
+}
+
+.no-image svg {
+    padding-top: 35px;
+}
+
+.no-image svg:hover {
+    cursor: pointer;
+}
+
+.form-container {
+    width: 500px;
+    height: 100%;
+    background-color: white;
+}
+.last-book-form {
+    font-size: 15px;
+}
+
+.last-book-form * {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+.last-book-form h3 {
+    font-size: 15px;
+}
+
+.last-book-form .form-group {
+    margin-top: 0 !important;
+    text-align: left;
+}
+
+.last-book-form button {
+    margin-top: 5px !important;
+}
+
+.last-book-form select[name="authorId"] {
+    font-size: 12px;
+    /* padding-top: 2px; */
+}
+
+.last-book-form input,
+.last-book-form select {
+    height: 25px;
+}
+
+.form-book {
+    padding: 0px !important;
+}
+
+.form-book h3 {
+    height: 0px !important;
+    font-size: 0 !important;
+}
+
+.last-book-form label {
+    font-size: 10px;
+}
+
+.edit-book-modal {
+    width: 500px;
+    margin-left: 40%;
+}
